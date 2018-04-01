@@ -1,12 +1,20 @@
+import question1
+import question2
 import question3
 import question4
 import question5
 
 def run():
     with open('survey_results_public.csv', encoding='utf-8') as f:
+        print_question_separator('1. What is the most occuring profession?')
+        question1.run(f)
+
+        print_question_separator('2. What is the distribution of answers for every country in %?')
+        question2.run(f)
+
         print_question_separator('3. What language do most developers work in?')
         question3.run(f)
-        
+
         print_question_separator('4. What is the most popular IDE?')
         question4.run(f)
 
