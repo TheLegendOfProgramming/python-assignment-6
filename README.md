@@ -8,6 +8,11 @@ Basically, just run the run_me and then you will see all questions conquered - G
 
 Success Impossible
 
+Unfortunately we were not able do download the csv file, as the source needs an authentication token.
+
+For questions 4 and 5 the function find_second_biggest_sum_in_dict has been used, because the first result is Na (no
+answer)
+
 # Answers
 
 ## Q1 What is the most occuring profession? ("mode" in statistical terms)
@@ -19,8 +24,3 @@ Success Impossible
 ## Q4 What is the most popular IDE?
 
 ## Q5 What framework do most developers want to work in?
-
-Unfortunately we were not able do download the csv file, as the source needs an authentication token.
-
-For questions 4 and 5 the function find_second_biggest_sum_in_dict has been used, because the first result is Na (no
-answer)
