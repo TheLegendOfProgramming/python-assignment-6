@@ -1,8 +1,12 @@
+import question3
 import question4
 import question5
 
 def run():
     with open('survey_results_public.csv', encoding='utf-8') as f:
+        print_question_separator('3. What language do most developers work in?')
+        question3.run(f)
+        
         print_question_separator('4. What is the most popular IDE?')
         question4.run(f)
 
